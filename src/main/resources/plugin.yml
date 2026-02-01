@@ -1,0 +1,13 @@
+name: OXEvent
+version: '${project.version}'
+main: com.github.ahhuser.oxevent.OXEventPlugin
+api-version: '1.21'
+permissions:
+  ox.admin:
+    description: Allows use of OX commands
+    default: op
+commands:
+  ox:
+    description: Main command for OX Event
+    usage: /ox <subcommand>
+    permission: ox.admin
